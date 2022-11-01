@@ -5,6 +5,8 @@ VisualStudioVersion = 17.1.32210.238
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SquareLibrary", "SquareLibrary\SquareLibrary.csproj", "{D5FE0A29-FF37-46A8-B8E7-63267B4DC9B0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SquareLibrary.Tests", "SquareLibrary.Tests\SquareLibrary.Tests.csproj", "{EF789461-4F2D-49DF-ABCE-B22638FB024B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{D5FE0A29-FF37-46A8-B8E7-63267B4DC9B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D5FE0A29-FF37-46A8-B8E7-63267B4DC9B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D5FE0A29-FF37-46A8-B8E7-63267B4DC9B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF789461-4F2D-49DF-ABCE-B22638FB024B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF789461-4F2D-49DF-ABCE-B22638FB024B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF789461-4F2D-49DF-ABCE-B22638FB024B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF789461-4F2D-49DF-ABCE-B22638FB024B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

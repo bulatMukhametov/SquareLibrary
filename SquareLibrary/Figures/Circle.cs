@@ -6,7 +6,7 @@ namespace SquareLibrary
     /// <summary>
     /// Круг
     /// </summary>
-    internal class Circle : AbstractFigure
+    public class Circle : AbstractFigure
     {
         private double _radius;
 

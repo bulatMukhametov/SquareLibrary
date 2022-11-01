@@ -1,8 +1,9 @@
 ﻿using SquareLibrary.Figures.Base;
+using SquareLibrary.Interfaces;
 
-namespace SquareLibrary.Interfaces
+namespace SquareLibrary.Impl
 {
-    public class Square : ISquare
+    public class SquareService : ISquareService
     {
         public double GetSquare(double radius)
         {
@@ -10,9 +11,9 @@ namespace SquareLibrary.Interfaces
             return circle.GetSquare();
         }
 
-        public double GetSquare(double x, double y, double z)
+        public double GetSquare(double sideOne, double sideTwo, double sideThree)
         {
-            var triangle = new Triangle(x, y, z);
+            var triangle = new Triangle(sideOne, sideTwo, sideThree);
             return triangle.GetSquare();
         }
 

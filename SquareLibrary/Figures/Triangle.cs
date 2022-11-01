@@ -6,7 +6,7 @@ namespace SquareLibrary
     /// <summary>
     /// Треугольник
     /// </summary>
-    internal class Triangle : AbstractFigure
+    public class Triangle : AbstractFigure
     {
         private double _sideOne;
         private double _sideTwo;
